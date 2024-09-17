@@ -1,9 +1,8 @@
---------------------------------------------------------------------------------PERFORMANS DEĞERLENDİRMESİ---------------------------------------------------------------------------------------------------------
+PERFORMANS DEĞERLENDİRMESİ
 
 Bu bölümde, K-Means kümeleme algoritması ile gözetimli öğrenme (F1 skoru) sonuçlarının performansını karşılaştırıyorum.
 İki yöntem arasında karşılaştırma yaparak, hangi yaklaşımın daha iyi performans gösterdiğini değerlendirdim.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 K-Means Kümeleme Sonuçları:
 
@@ -22,7 +21,6 @@ Grafik Analizi;
 Küme merkezlerinin birbirine yakın olması, kümeler arasındaki ayrımın belirgin olmadığını gösterebilir. 
 Sarı ve mavi noktaların 0-10 arasında yoğunlaşması, bu bölgede kümelerin toplandığını ve belirli bir düzenin olduğunu ifade eder.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Gözetimli Öğrenme Sonuçları (F1 Skoru):
 
@@ -37,7 +35,6 @@ Genel Performans:
 -Macro Average: F1 skoru 0.30. Bu, tüm sınıfların ortalama performansını temsil eder. Düşük değer, bazı sınıflarda düşük performansın etkisini yansıtır.
 -Weighted Average: F1 skoru 0.75. Sınıf dağılımını dikkate alarak ağırlıklı bir ortalama performans sunar.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Karşılaştırma ve Sonuç:
 
@@ -57,8 +54,8 @@ Bu bağlamda eğer amacımız veri kümemizdeki grupları veya kümeleri anlamak
 Eğer belirli sınıfları tahmin etmek ve sınıflandırma yapmak istiyorsak, gözetimli öğrenme algoritmalarına odaklanmalıyız.
 Sınıflar arasındaki performans farklarını iyileştirmek için veri ön işleme, özellik mühendisliği ve model iyileştirme çalışmalarına ihtiyaç duyabiliriz.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
----------------------------------------------------------------------------KAGGLE NOTEBOOK VE DATASET LİNKİ-------------------------------------------------------------------------------------------------------
+
+KAGGLE NOTEBOOK VE DATASET LİNKİ
 Dataset: https://www.kaggle.com/datasets/jameslko/gun-violence-data?select=gun-violence-data_01-2013_03-2018.csv
 Sup_Ml_Project: https://www.kaggle.com/code/eypkurt/sup-ml-project
 NonSup_Ml_Project: https://www.kaggle.com/code/eypkurt/nonsup-ml-project
